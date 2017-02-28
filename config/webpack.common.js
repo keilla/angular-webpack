@@ -64,6 +64,10 @@ module.exports = {
 
     new HtmlWebpackPlugin({
       template: 'app/index.html'
-    })
+    }),
+
+    new webpack.LoaderOptionsPlugin({
+       debug: true
+     })
   ]
 };

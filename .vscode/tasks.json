@@ -1,0 +1,8 @@
+{
+    "taskName": "default",
+    "command": "gulp",
+    "args": [
+        "default"
+    ],
+    "isShellCommand": true
+}
